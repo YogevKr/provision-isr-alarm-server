@@ -2,12 +2,12 @@
 
 ## Overview
 
-This project implements an asynchronous server for handling alarms from Provision ISR devices. It processes both XML and HTTP POST requests, logs all alarms, and can trigger PagerDuty incidents for specified alarm types. The server operates in Israel's time zone and correctly handles Daylight Saving Time (DST) transitions.
+This project implements an asynchronous server for handling alarms from Provision ISR devices. It processes XML requests, logs all alarms, and can trigger PagerDuty incidents for specified alarm types. The server operates in Israel's time zone and correctly handles Daylight Saving Time (DST) transitions.
 
 ## Features
 
 - Asynchronous handling of multiple client connections
-- Support for both XML and HTTP POST alarm formats
+- Support XML alarm formats
 - Configurable PagerDuty integration for alert notifications
 - Comprehensive logging of all received alarms
 - Time-based restrictions for creating PagerDuty incidents
