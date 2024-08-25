@@ -10,3 +10,4 @@ services:
       - PAGERDUTY_ALERT_TYPES=${PAGERDUTY_ALERT_TYPES}
       - PAGING_START_TIME=${PAGING_START_TIME:-00:00}
       - PAGING_END_TIME=${PAGING_END_TIME:-23:59}
+    restart: unless-stopped
